@@ -1,0 +1,68 @@
+body{
+    background: none;
+}
+
+#resume h1 {
+    /*margin:0 !important;*/
+}
+
+#resume h2 {
+    margin-bottom: 0px !important;
+}
+
+#resume #paper{
+    border: none !important;
+    margin:0 !important;
+    padding-top: 0px !important;
+    padding-bottom:0px;
+    padding-right: 50px;
+
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    width: auto !important;
+}
+
+#resume ul.skillList {
+    margin-left: 0;
+    padding-left: 0px;
+}
+
+#resume ul.skillList li{
+    padding-left: 0;
+}
+
+#resume a{
+    background: none;
+    padding-left: 0;
+    text-decoration: none !important;
+}
+
+.entry,.entrySection,.inDepth{
+    page-break-inside: avoid !important;
+}
+
+.entrySection ul{
+    padding-left: 17px;
+}
+.entrySection li{
+    list-style: square;
+    padding-left: 0px;
+}
+
+.printerOnly{
+    display: inline;
+}
+.noPrint{
+    display: none;
+}
+
+.spacer{
+    display: block;
+    height: 120px;
+    /*    margin-bottom: 200px;*/
+}
+
+.col-xs-12 {
+    width: 25%;
+}
